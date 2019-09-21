@@ -11,14 +11,16 @@ body {
 
 .text {
     color: gray;
+    font-size: 1.5em;
 }
 
 nav.navbar {
     padding-right: 1%;
     padding-left: 1%;
+    font-size: 1.5em;
 }
 
-.navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item .nav-link {
     float: right;
 }
 
@@ -50,8 +52,13 @@ div#pshdiv {
     padding-top: 15px;
 }
 
+div#pshdiv p {
+    font-size: 1.2em;
+}
+
 div#pshdiv h1 {
     color: #d1d1d1;
+    font-size: 4.5em;
 }
 
 .bold {
@@ -63,7 +70,7 @@ div#firstimg {
 }
 
 .projheader {
-    font-size: 32px;
+    font-size: 2.2em;
     margin-top: 3px;
     margin-bottom: 0px;
     text-align: left;
