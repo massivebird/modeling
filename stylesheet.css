@@ -1,99 +1,50 @@
 * {
-    background-color: #131313;
+    color: white;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
 body {
-    background-color: #131313;
-    width: 100%;
-    height: 100%;
-}
-
-.text {
-    color: gray;
-    font-size: 1.5em;
-}
-
-nav.navbar {
-    padding-right: 1%;
-    padding-left: 1%;
-    font-size: 1.5em;
-}
-
-.navbar-nav .nav-item .nav-link {
-    float: right;
-}
-
-.nav-link {
-    color: gray;
-    transition: color 0.35s;
-    -webkit-transition: color 0.5s;
-}
-
-.nav-link:hover {
-    color: #d1d1d1;
-}
-
-.hrhr {
-    margin: 5px auto;
-    width: 98%;
-    background-color: gray;
+    background-color: #1d1d1d;
+    margin: 0;
 }
 
 .center {
+    text-align: center;
     margin: 0 auto;
 }
 
-.centertxt {
-    text-align: center;
+h1 {
+    display: inline-block;
+    font-size: 2.5em;
 }
 
-div#pshdiv {
-    padding-top: 15px;
+div.project-container {
+    width: 50%;
 }
 
-div#pshdiv p {
-    font-size: 1.2em;
+img.project-thumb {
+    display: block;
+    box-shadow: 25px 25px #0c0c0c;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
-div#pshdiv h1 {
-    color: #d1d1d1;
-    font-size: 4.5em;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-div#firstimg {
-    padding-top: 30px;
-}
-
-.projheader {
-    font-size: 2.2em;
-    margin-top: 3px;
-    margin-bottom: 0px;
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
     text-align: left;
+    text-indent: 50px;
+    font-size: 2.03em;
+    text-shadow: 5px 5px #0c0c0c;
 }
 
-.projfile {
-    color: #474747;
-    text-align: left;
-    font-style: italic;
-}
-
-.projtxt {
-    text-align: left;
-}
-
-span#donutheader {
+h2#donut {
     color: #d99bd6;
 }
 
-span#prismheader {
+h2#prism {
     color: #eb7070;
 }
 
-span#hotelheader {
+h2#hotel {
     color: #ffe7b3;
 }

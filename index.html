@@ -1,102 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-
-    <title>Garrett Drake - Home</title>
-    <meta charset="utf-8">
+    <title>Garrett Drake - 3D Modeling Portfolio</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-    <!-- BOOTSTRAP -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400i,100&display=swap" rel="stylesheet"> <!-- IBM Plex Sans -->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400i&display=swap" rel="stylesheet"> <!-- IBM Plex Mono -->
 </head>
-
 <body>
+    <div id="container"> <!-- contains entire body -->
 
-    <nav class="navbar">
-        <ul class="navbar-nav">
-            <div class="container-fluid">
-                <div></div>
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Garrett Drake 3D Modeling</a>
-                </li>
-        </ul>
-        <ul class="nav navbar-right">
-            <li class="nav-item">
-                <a class="nav-link" href="index-projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index-about.html">About</a>
-            </li>
-        </ul>
-        </div>
-
-        <hr class="hrhr">
-    </nav>
-    <!-- wrap -->
-    <div class="container-fluid">
-        <div id="pshdiv" class="container-fluid center centertxt">
-            <h1 class="center bold">Project Showcase</h1>
-            <p class="text center centertxt">Certain project titles will take you to an album that takes you through the
-                progression and evolution of that piece. Take a gander!</p>
-        </div>
-
-        <div class="container-fluid center centertxt" id="firstimg">
-            <img src="https://i.imgur.com/vhnX3i6.jpg" class="col-lg-6" />
-            <div class="center col-lg-6">
-                <p class="projheader text bold">"<span id="donutheader">Two Donuts on a Table</span>"</p>
-                <p class="projfile text">tutorial_donut_final.png</p>
-                <p class="projtxt text">I created this lovely image when I followed my first <a
-                        href="https://www.youtube.com/playlist?list=PLjEaoINr3zgHs8uzT3yqe4iHGfkCmMJ0P">3D modeling
-                        tutorial series</a> by Blender Guru. This was my take on his final product - nothing much of my
-                    own creativity, but this was my introduction to this art form. It's still pretty cool!
-                </p>
-            </div>
-        </div>
-
-        <div class="container-fluid center centertxt" id="firstimg">
-            <img src="https://i.imgur.com/0G3ZrV0.png" class="col-lg-6" />
-            <div class="center col-lg-6">
-                <p class="projheader text bold">"<a href="https://imgur.com/a/amWlVN1"><span id="prismheader">Lonely
-                            Prism</span></a>"</p>
-                <p class="projfile text">scult_prism_final3.png</p>
-                <p class="projtxt text">This is the first piece I created on my own. What is it? Perhaps I know... but
-                    perhaps I do not. This angle was found through messing around in my workspace; I discovered an
-                    entirely different camera setup that makes this shot possible (a perspective that is impossible in
-                    reality).<br><br>This was originally a bland take on the close-up donut project. However, as I
-                    found the aforementioned camera angle, the composition of the piece changed drastically; the focus
-                    shifted toward a larger view showing all the involved components in the shot rather than hiding
-                    lights and background objects... not that there were any of those.
-                </p>
-            </div>
-        </div>
-
-        <div class="container-fluid center centertxt" id="firstimg">
-            <img src="https://i.imgur.com/TgGmPO8.png" class="col-lg-6" />
-            <div class="center col-lg-6">
-                <p class="projheader text bold">"<a href="https://imgur.com/a/9y6Lmxg"><span id="hotelheader">Hotel
-                            Arpoador</span></a>"</p>
-                <p class="projfile text">IDmagpg106_8.png</p>
-                <p class="projtxt text">My <i>Hotel Arpoador</i> project is inspired by a showcase featured in
-                    <i>Interior Design</i> magazine. It is located in Rio de Janeiro, Brazil. This project is only a
-                    recreation of a view into a single room; the external architecture may be a piece for another day
-                    down the road.<br><br>I learned a lot about composition, lighting, and some intricacies of modeling
-                    and materials while working on this. The final product is a result of some drastic forced
-                    perspective; the mirror and its respective wall are enlarged to ridiculous proportions that the
-                    audience would otherwise fail to notice. <br><br> I plan on returning to this eventually in order to
-                    fix up the blanket and add some shelves that are absent in my reproduction of the original photo.
-                    For now, this is satisfactory.
-                </p>
-            </div>
-        </div>
-
+    <div class="center">
+    <h1>Garrett Drake's 3D Modeling Portfolio<hr></h1>
     </div>
 
+    <div class="project-container center">
+        <img id="thumb-donut" class="project-thumb center" src="https://i.imgur.com/vhnX3i6.jpg">
+        <h2 id="donut">"Two Donuts on a Table"</h2>
+    </div>
+
+    <div class="project-container center">
+        <img id="thumb-prism" class="project-thumb center" src="https://i.imgur.com/0G3ZrV0.png">
+        <h2 id="prism">"Lonely Prism"</h2>
+    </div>
+
+    <div class="project-container center">
+        <img id="thumb-donut" class="project-thumb center" src="https://i.imgur.com/TgGmPO8.png">
+        <h2 id="hotel">"Hotel Arpoador - Interior"</h2>
+    </div>
+
+
+
+
+    </div>
 </body>
 
 </html>
