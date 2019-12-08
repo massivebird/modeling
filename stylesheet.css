@@ -1,9 +1,8 @@
 * {
-    color: white;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-body {
+body, div.container-fluid {
     background-color: #1d1d1d;
     margin: 0;
 }
@@ -14,12 +13,28 @@ body {
 }
 
 h1 {
+    color: white;
     display: inline-block;
     font-size: 2.5em;
+    margin-bottom: 0px;
+}
+
+p {
+    color: white;
+    text-align: left;
+    font-size: 1.78em;
+}
+
+p.subtext {
+    color: #5c5c5c;
+    margin-bottom: 26.8px;
+}
+
+p.subtext-xl {
+    font-size: 1.15em;
 }
 
 div.project-container {
-    width: 50%;
     margin-bottom: 75px;
 }
 
@@ -30,17 +45,20 @@ img.project-thumb {
     margin-bottom: 50px;
 }
 
+a.no-dec {
+    text-decoration: ;
+}
+
+a {
+    color: white;
+}
+
 h2 {
     font-family: 'IBM Plex Mono', monospace;
     text-align: left;
-    text-indent: 50px;
     font-size: 2.03em;
     text-shadow: 5px 5px #0c0c0c;
-}
-
-p {
-    text-align: left;
-    font-size: 1.78em;
+    margin-left: 30px;
 }
 
 h2#donut {

@@ -4,6 +4,11 @@
 <head>
     <title>Garrett Drake - 3D Modeling Portfolio</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!-- dedicated stylesheet -->
+    <link rel="stylesheet" type="text/css" href="bootstraplite.css">
+    <!-- implements bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- mobile config -->
 
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400i,100&display=swap" rel="stylesheet">
     <!-- IBM Plex Sans -->
@@ -12,16 +17,18 @@
 </head>
 
 <body>
-    <div id="container">
+    <div class="container-fluid">
         <!-- contains entire body -->
 
         <div class="center">
             <h1>Garrett Drake's 3D Modeling Portfolio
                 <hr>
             </h1>
+            <p class="subtext subtext-xl center d-none d-xl-block"><i>click project titles to see them in-depth!</i></p>
+            <p class="subtext center d-xl-none"><i>click project titles to see them in-depth!</i></p>
         </div>
 
-        <div class="project-container center">
+        <div class="project-container center col-xl-6 col-lg-9">
             <img id="thumb-donut" class="project-thumb center" src="https://i.imgur.com/vhnX3i6.jpg">
             <h2 id="donut">"Two Donuts on a Table"</h2>
             <p>I created this lovely image when I followed my first <a
@@ -30,9 +37,9 @@
                 creativity, but this was my introduction to this art form.</p>
         </div>
 
-        <div class="project-container center">
+        <div class="project-container center col-xl-6 col-lg-10">
             <img id="thumb-prism" class="project-thumb center" src="https://i.imgur.com/0G3ZrV0.png">
-            <h2 id="prism">"Lonely Prism"</h2>
+            <a href="https://imgur.com/a/amWlVN1" class="no-dec"><h2 id="prism">"Lonely Prism"</h2></a>
             <p>This is the first piece I created on my own. What is it? Perhaps I know... but perhaps I do not. This
                 angle was found through messing around in my workspace; I discovered an
                 entirely different camera setup that makes this shot possible (a perspective that is impossible in
@@ -42,9 +49,9 @@
                 lights and background objects... not that there were any of those.</p>
         </div>
 
-        <div class="project-container center">
+        <div class="project-container center col-xl-6 col-lg-10">
             <img id="thumb-donut" class="project-thumb center" src="https://i.imgur.com/TgGmPO8.png">
-            <h2 id="hotel">"Hotel Arpoador - Interior"</h2>
+            <a href="https://imgur.com/a/9y6Lmxg" class="no-dec"></a>><h2 id="hotel">"Hotel Arpoador - Interior"</h2></a>
             <p>My Hotel Arpoador project is inspired by a showcase featured in
                 <i>Interior Design</i> magazine. It is located in Rio de Janeiro, Brazil. This project is only a
                 recreation of a view into a single room; the external architecture may be a piece for another day
