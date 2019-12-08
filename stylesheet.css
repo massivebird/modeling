@@ -20,6 +20,7 @@ h1 {
 
 div.project-container {
     width: 50%;
+    margin-bottom: 75px;
 }
 
 img.project-thumb {
@@ -35,6 +36,11 @@ h2 {
     text-indent: 50px;
     font-size: 2.03em;
     text-shadow: 5px 5px #0c0c0c;
+}
+
+p {
+    text-align: left;
+    font-size: 1.78em;
 }
 
 h2#donut {
